@@ -81,6 +81,7 @@ form {
     min-height: 300px;
     padding: 16px 64px 32px;
     border-radius: 0px 0px 20px 20px;
+    margin-bottom: 380px;
 }
 
 fieldset legend {
