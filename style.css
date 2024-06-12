@@ -237,3 +237,19 @@ form button {
     font-size: 20px;
     line-height: 26px;
 }
+
+form button:hover {
+    background: #f75543;
+}
+
+input:invalid {
+    border: 1px solid rgba(255, 0, 0, 0.548);
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+.checkbox-wrapper input:invalid + label::before{
+    border: 1px solid rgba(255, 0, 0, 0.548);
+}
